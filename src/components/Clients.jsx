@@ -1,9 +1,10 @@
-import React from 'react'
+import { clients } from '../constants';
+import styles from '../style'
 
-const Clients = () => {
-  return (
-    <div>Client</div>
-  )
-}
+const Clients = () => (
+  <section className={`${styles.flexCenter} my-`}>
+    <div></div>
+  </section>
+)
 
 export default Clients;
